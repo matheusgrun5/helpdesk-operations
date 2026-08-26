@@ -14,12 +14,25 @@
 - Conexão lenta ou instável
 
 ---
-
+```markdown
 ## Fluxo de diagnóstico
 
+    1. ipconfig → IP válido?
+       → Não (169.254.x.x): ipconfig /release + ipconfig /renew
+       → Sim: continuar
 
----
+    2. ping gateway → rede local ok?
+       → Não: verificar cabo ou switch
+       → Sim: continuar
 
+    3. ping 8.8.8.8 → internet ok?
+       → Não: problema no provedor → escalar N2
+       → Sim: continuar
+
+    4. ping google.com → DNS ok?
+       → Não: ipconfig /flushdns ou trocar DNS
+       → Sim: problema no navegador ou aplicativo
+```
 ## Comandos utilizados
 
 | Comando | Função |
