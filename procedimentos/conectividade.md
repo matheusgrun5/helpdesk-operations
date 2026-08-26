@@ -14,25 +14,27 @@
 - Conexão lenta ou instável
 
 ---
-```markdown
+
 ## Fluxo de diagnóstico
 
-    1. ipconfig → IP válido?
-       → Não (169.254.x.x): ipconfig /release + ipconfig /renew
-       → Sim: continuar
+1. `ipconfig` → IP válido?
+   - Não (169.254.x.x) → `ipconfig /release` + `ipconfig /renew`
+   - Sim → continuar
 
-    2. ping gateway → rede local ok?
-       → Não: verificar cabo ou switch
-       → Sim: continuar
+2. `ping gateway` → rede local ok?
+   - Não → verificar cabo ou switch
+   - Sim → continuar
 
-    3. ping 8.8.8.8 → internet ok?
-       → Não: problema no provedor → escalar N2
-       → Sim: continuar
+3. `ping 8.8.8.8` → internet ok?
+   - Não → problema no provedor → escalar N2
+   - Sim → continuar
 
-    4. ping google.com → DNS ok?
-       → Não: ipconfig /flushdns ou trocar DNS
-       → Sim: problema no navegador ou aplicativo
-```
+4. `ping google.com` → DNS ok?
+   - Não → `ipconfig /flushdns` ou trocar DNS
+   - Sim → problema no navegador ou aplicativo
+
+---
+
 ## Comandos utilizados
 
 | Comando | Função |
@@ -51,11 +53,14 @@
 
 **IP inválido — 169.254.x.x**
 
-Verificar se cabo está conectado caso o comando falhe.
+Verificar se cabo está conectado. Se estiver ok rodar:
+- `ipconfig /release`
+- `ipconfig /renew`
 
 **DNS com falha — sites não abrem**
 
-Se persistir — trocar DNS para `8.8.8.8` e `8.8.4.4` nas propriedades do adaptador de rede.
+- `ipconfig /flushdns`
+- Se persistir — trocar DNS para `8.8.8.8` e `8.8.4.4`
 
 ---
 
@@ -67,17 +72,4 @@ Se persistir — trocar DNS para `8.8.8.8` e `8.8.4.4` nas propriedades do adapt
 
 ---
 
-## Causa raiz mais comum
-
-| Causa | Frequência |
-|-------|-----------|
-| Cabo desconectado | Alta |
-| Falha no DHCP | Alta |
-| Cache DNS corrompido | Alta |
-| Falha no provedor | Média |
-| Problema no switch | Baixa |
-
----
-
-**Autor:** Matheus Grun  
-**Última atualização:** Agosto 2026
+## Causa raiz mais
