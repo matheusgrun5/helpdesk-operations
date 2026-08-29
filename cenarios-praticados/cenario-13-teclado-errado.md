@@ -9,7 +9,7 @@
 
 ## Relato do usuário
 
-*"Meu teclado está digitando caracteres errados. Quando aperto a letra Q aparece um W, quando aperto o A aparece um S. Algumas teclas estão completamente trocadas."*
+*"Meu teclado está digitando caracteres errados. Quando aperto Q aparece W, quando aperto A aparece S."*
 
 ---
 
@@ -17,30 +17,39 @@
 
 | Passo | Verificação | Resultado |
 |-------|-------------|-----------|
-| 1 | Verificado layout do teclado na barra de tarefas | Estava configurado em inglês — ENG |
-| 2 | Alterado para Português Brasil | Teclas voltaram ao funcionamento normal |
-| 3 | Testado digitando em documento | Todas as teclas funcionando corretamente |
+| 1 | Layout na barra de tarefas | Configurado em inglês — ENG |
+| 2 | Alterado para Português Brasil | Teclas voltaram ao normal |
+| 3 | Testado em documento | Todas as teclas funcionando |
 | 4 | Perguntado sobre acidentes físicos | Nenhum acidente relatado |
-| 5 | Usuário orientado sobre o atalho | Alt + Shift troca o layout acidentalmente |
+| 5 | Usuário orientado | Alt + Shift troca layout acidentalmente |
 
 ---
 
 ## Solução aplicada
 
-Layout do teclado estava configurado em inglês — alterado para Português Brasil na barra de tarefas. Todas as teclas voltaram ao funcionamento normal. Usuário orientado sobre o atalho Alt + Shift que troca o layout automaticamente.
+Layout alterado para Português Brasil na barra de tarefas. Usuário orientado sobre o atalho Alt + Shift que troca o layout automaticamente sem perceber.
 
 ---
 
 ## Causa raiz
 
-Atalho Alt + Shift pressionado acidentalmente pelo usuário — trocou o layout do teclado de Português Brasil para inglês sem perceber.
+Atalho Alt + Shift pressionado acidentalmente — trocou o layout de Português Brasil para inglês.
 
 ---
 
 ## Lição aprendida
 
-Teclado com caracteres trocados é quase sempre layout incorreto — resolve em menos de 1 minuto. Sempre verificar o idioma na barra de tarefas antes de pensar em problema físico. Orientar o usuário sobre o atalho Alt + Shift evita reincidências.
+Teclado com caracteres trocados é quase sempre layout incorreto — resolve em menos de 1 minuto. Sempre verificar o idioma na barra de tarefas antes de pensar em problema físico.
 
 ---
 
-## Como corrigir
+## Conceitos relacionados
+
+- **Layout do teclado** — define o idioma e posição das teclas — alterado no canto inferior direito da barra de tarefas
+- **Alt + Shift** — atalho que troca o layout automaticamente entre idiomas
+
+---
+
+## Procedimento relacionado
+
+[Diagnóstico de Hardware](../procedimentos/hardware.md)
