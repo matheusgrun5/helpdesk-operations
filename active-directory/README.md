@@ -20,18 +20,11 @@ Documentação do laboratório de Active Directory montado com VirtualBox e Wind
 
 ## Estrutura do Domínio
 
-corptech.local
-└── Departamentos
-├── TI
-│ ├── Carlos Eduardo (usuário)
-│ └── GRP_TI_Acesso (grupo de segurança)
-├── Financeiro
-│ ├── Ana Lima (usuário)
-│ └── GRP_Financeiro_Acesso (grupo de segurança)
-└── RH
-├── Paula Santos (usuário)
-└── GRP_RH_Acesso (grupo de segurança)
-
+- corptech.local
+  - Departamentos
+    - TI — Carlos Eduardo (usuário) — GRP_TI_Acesso (grupo de segurança)
+    - Financeiro — Ana Lima (usuário) — GRP_Financeiro_Acesso (grupo de segurança)
+    - RH — Paula Santos (usuário) — GRP_RH_Acesso (grupo de segurança)
 
 ---
 
