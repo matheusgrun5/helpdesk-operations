@@ -51,5 +51,21 @@ Documentação do laboratório de Active Directory montado com VirtualBox e Wind
 
 ---
 
+## Evidências do Laboratório
+
+### Print 1 — Estrutura de OUs
+![Estrutura de OUs](print1.png)
+
+### Print 2 — OU TI com usuário e grupo
+![OU TI](print2.png)
+
+### Print 3 — Propriedades do usuário Carlos Eduardo
+![Propriedades do usuário](print3.png)
+
+### Print 4 — GPO configurada no Group Policy Management Editor
+![GPO configurada](print4.png)
+
+---
+
 **Analista:** Matheus Grun  
 **Última atualização:** Agosto 2026
