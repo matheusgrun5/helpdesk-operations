@@ -140,6 +140,21 @@ Esse tipo de divergência é comum em ambientes reais e costuma ser identificado
 
 ---
 
+## Account expires — distinção importante
+
+Durante a análise foi identificada a diferença entre duas configurações de nomes semelhantes na aba Account.
+
+| Campo | Função |
+|-------|--------|
+| Password never expires | Isenta o usuário da política de expiração de senha do domínio |
+| Account expires | Define uma data após a qual a conta deixa de permitir logon |
+
+A opção Account expires configurada como Never é o padrão adequado para colaboradores efetivos. A definição de uma data de expiração é recomendada para contas temporárias — estagiários, prestadores de serviço, consultores e auditores externos — garantindo que o acesso seja encerrado automaticamente ao término do contrato.
+
+Essa prática está diretamente relacionada ao processo de Gestão de Acesso do ITIL e reduz o risco de contas ativas pertencentes a pessoas que não fazem mais parte da organização.
+
+---
+
 ## Relação com o atendimento N1
 
 Este procedimento é a causa raiz do caso INC-008 — conta bloqueada no sistema. A configuração da Account Lockout Policy determina quando a conta bloqueia, por quanto tempo permanece bloqueada e se o desbloqueio ocorre de forma automática ou manual.
