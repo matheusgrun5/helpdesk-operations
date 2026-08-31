@@ -54,6 +54,7 @@ Laboratório montado com VirtualBox e Windows Server 2022 — criação de domí
 | [Configuração do Lab](active-directory/lab-setup.md) | Instalação e configuração do ambiente |
 | [Usuários e Grupos](active-directory/usuarios-e-grupos.md) | Criação e gerenciamento de usuários |
 | [GPO — Painel de Controle](active-directory/gpo-painel-controle.md) | Política de bloqueio do Painel de Controle |
+| [Política de Senha e Bloqueio](active-directory/politica-senha-bloqueio.md) | Configuração e teste da política de senha e lockout |
 
 ### Base de Conhecimento
 | Arquivo | Conteúdo |
