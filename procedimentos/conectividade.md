@@ -72,4 +72,25 @@ Verificar se cabo está conectado. Se estiver ok rodar:
 
 ---
 
-## Causa raiz mais
+## Causa raiz mais frequente
+
+| Causa | Frequência | Indício no diagnóstico |
+|-------|-----------|------------------------|
+| Falha na obtenção de IP via DHCP | Alta | IP 169.254.x.x no ipconfig |
+| Cache DNS corrompido | Alta | ping 8.8.8.8 responde, ping google.com falha |
+| Cabo de rede desconectado ou danificado | Média | Media disconnected no ipconfig |
+| Falha no navegador ou aplicativo | Média | Todos os pings respondem normalmente |
+| Instabilidade do provedor | Baixa | ping 8.8.8.8 sem resposta |
+
+A maior parte dos chamados de conectividade em N1 se resolve nas duas primeiras causas — renovação de IP e limpeza de cache DNS. Casos em que todos os testes de rede respondem indicam que o problema não está na conectividade, e sim na aplicação.
+
+---
+
+## Lição aprendida
+
+O diagnóstico deve seguir a ordem do mais próximo ao mais distante: primeiro a máquina, depois a rede local, depois a internet e por último a resolução de nomes. Testar diretamente o site do usuário sem validar as camadas anteriores leva a conclusões erradas e a escalonamentos desnecessários.
+
+---
+
+**Analista:** Matheus Grun  
+**Última atualização:** Agosto 2026
