@@ -86,11 +86,5 @@ A maior parte dos chamados de conectividade em N1 se resolve nas duas primeiras 
 
 ---
 
-## Lição aprendida
-
-O diagnóstico deve seguir a ordem do mais próximo ao mais distante: primeiro a máquina, depois a rede local, depois a internet e por último a resolução de nomes. Testar diretamente o site do usuário sem validar as camadas anteriores leva a conclusões erradas e a escalonamentos desnecessários.
-
----
-
 **Analista:** Matheus Grun  
 **Última atualização:** Agosto 2026
