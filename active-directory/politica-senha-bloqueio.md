@@ -148,10 +148,17 @@ Este procedimento é a causa raiz do caso INC-008 — conta bloqueada no sistema
 
 ## Evidências
 
-Print 5 — Password Policy configurada  
-Print 6 — Account Lockout Policy configurada  
-Print 7 — Teste de bloqueio com códigos 1326 e 1909  
-Print 8 — Propriedades da conta após ajuste de conformidade
+### Print 5 — Password Policy configurada
+![Password Policy](print5.png)
+
+### Print 6 — Account Lockout Policy configurada
+![Account Lockout Policy](print6.png)
+
+### Print 7 — Teste de bloqueio com códigos 1326 e 1909
+![Teste de bloqueio](print7.png)
+
+### Print 8 — Propriedades da conta após ajuste de conformidade
+![Propriedades da conta](print8.png)
 
 ---
 
