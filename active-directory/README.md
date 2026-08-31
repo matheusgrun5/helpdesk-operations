@@ -67,5 +67,9 @@ Documentação do laboratório de Active Directory montado com VirtualBox e Wind
 
 ---
 
+| [Política de Senha e Bloqueio](politica-senha-bloqueio.md) | Configuração e teste da política de senha e lockout |
+
+---
+
 **Analista:** Matheus Grun  
 **Última atualização:** Agosto 2026
