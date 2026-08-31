@@ -38,6 +38,9 @@ Documentação do laboratório de Active Directory montado com VirtualBox e Wind
 - Desbloqueio de contas
 - Redefinição de senhas
 - Criação e configuração de GPO
+- Configuração da política de senha do domínio via Default Domain Policy
+- Configuração de bloqueio automático de conta por tentativas inválidas
+- Validação de políticas por linha de comando com gpupdate e net accounts
 
 ---
 
